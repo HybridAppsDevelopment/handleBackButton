@@ -1,4 +1,4 @@
-/Event Listener for previous screen button press
+//Event Listener for previous screen button press
 $('.navBack').click(function() {
  
 handleBack();
@@ -23,7 +23,8 @@ function handleBack(){
       //we don't pass the # char - just return the value after the #
       hashValue = hashValue.replace(/^#/, '');
 
-      changeAppPage(_currentStep, _currentScreen);
+      //  
+      changeAppPage("home");
        
 
 }//close handleBack
